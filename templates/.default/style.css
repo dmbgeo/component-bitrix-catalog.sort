@@ -1,0 +1,29 @@
+.sort {
+    font-size: 13px;
+    float: right;
+    margin: 0 auto;
+    padding-right: 17%;
+    padding-top: 6px;
+	display: block;
+}
+.sort .default{
+	cursor: pointer;
+}
+.sort_a {
+	color: #989898;
+    font-size: 13px;
+    text-decoration: none;
+}
+.sort_a:hover {
+	color: #179C4E;
+}
+.sort_a.active {
+	color: #179C4E;
+}
+.top-pager .sort{
+    display: block;
+}
+
+.bottom-pager .sort{
+    display: none;
+}
